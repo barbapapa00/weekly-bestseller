@@ -1,0 +1,6 @@
+.git
+.github
+supabase
+__pycache__
+*.py
+requirements.txt

@@ -361,7 +361,63 @@ def main() -> int:
     # data.js: 파일을 더블클릭해서 열어도(file://) 화면이 보이도록 스크립트 형태로도 저장
     (DOCS / "data.js").write_text(f"window.BESTSELLER_DATA = {text};\n", encoding="utf-8")
     print(f"저장 완료: {DOCS / 'data.json'} (실패 {failures}건)")
+    try:
+        upload_to_supabase(data)
+    except Exception as e:
+        print(f"Supabase 업로드 실패: {e}")
+        return 1
     return 0
+
+
+# ---------------------------------------------------------------- Supabase 저장
+
+def week_start_kst() -> str:
+    today = datetime.now(KST).date()
+    return (today - timedelta(days=today.weekday())).isoformat()  # 이번 주 월요일
+
+
+def upload_to_supabase(data: dict) -> None:
+    """환경변수 SUPABASE_URL, SUPABASE_SECRET_KEY 가 있을 때만 Supabase에 저장한다.
+    (GitHub Actions에서는 Secrets로 넣어 주고, 내 PC에서는 보통 비워 둔다)"""
+    import os
+    url = os.environ.get("SUPABASE_URL", "").rstrip("/")
+    key = os.environ.get("SUPABASE_SECRET_KEY", "")
+    if not (url and key):
+        print("Supabase 설정이 없어 업로드는 건너뜀")
+        return
+    headers = {"apikey": key, "Content-Type": "application/json"}
+    if not key.startswith("sb_"):  # 예전 형식(JWT) 키는 Authorization 헤더도 필요
+        headers["Authorization"] = f"Bearer {key}"
+    week = week_start_kst()
+
+    def post(table: str, rows, conflict: str):
+        r = requests.post(
+            f"{url}/rest/v1/{table}?on_conflict={conflict}",
+            headers={**headers, "Prefer": "resolution=merge-duplicates,return=minimal"},
+            data=json.dumps(rows, ensure_ascii=False).encode("utf-8"), timeout=30)
+        if r.status_code >= 300:
+            raise RuntimeError(f"{table} 저장 실패 {r.status_code}: {r.text[:300]}")
+
+    post("snapshots", [{"week_start": week, "collected_at": data["updated_at"], "data": data}], "week_start")
+
+    rows = []
+    for s in data["sources"]:
+        for cid, lst in s["lists"].items():
+            if lst.get("error") or not lst.get("items"):
+                continue  # 이번 주에 새로 수집한 목록만 기록
+            for it in lst["items"]:
+                rows.append({
+                    "week_start": week, "source_id": s["id"], "source_name": s["name"],
+                    "country": s["country"], "category": cid, "rank": it["rank"],
+                    "title": it["title"], "subtitle": it.get("subtitle"), "author": it.get("author"),
+                    "publisher": it.get("publisher"), "pub_date": it.get("pub_date"),
+                    "price": it.get("price"), "rating": it.get("rating"),
+                    "rating_max": it.get("rating_max"), "image": it.get("image"), "link": it.get("link"),
+                    "collected_at": lst["updated_at"],
+                })
+    if rows:
+        post("bestseller_items", rows, "week_start,source_id,category,rank")
+    print(f"Supabase 저장 완료: {week} 주차, 책 {len(rows)}권")
 
 
 if __name__ == "__main__":

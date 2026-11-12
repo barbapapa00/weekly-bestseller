@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>주간 베스트셀러</title>
+<meta name="description" content="한국·미국 주요 서점의 자기계발·아동·경제 분야 주간 베스트셀러 TOP 10">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #f7f5f0;
+    --surface: #ffffff;
+    --surface-2: #f1eee7;
+    --text: #1d1b18;
+    --muted: #6b665d;
+    --line: #e4dfd4;
+    --accent: #b4441c;
+    --accent-soft: #f6e4da;
+    --ok: #2f7a4b;
+    --warn: #9a6a00;
+    --off: #8a847a;
+    --shadow: 0 1px 2px rgba(30, 25, 15, .06), 0 4px 16px rgba(30, 25, 15, .05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161513;
+      --surface: #201f1c;
+      --surface-2: #2a2825;
+      --text: #ece8e1;
+      --muted: #a39d92;
+      --line: #36332e;
+      --accent: #ef8a5e;
+      --accent-soft: #3a2a22;
+      --ok: #6cc28c;
+      --warn: #e0b34f;
+      --off: #8f897f;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Noto Sans KR", system-ui, -apple-system, "Segoe UI", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .wrap { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
+
+  header { padding: 40px 0 20px; }
+  .eyebrow { color: var(--accent); font-weight: 700; font-size: 13px; letter-spacing: .08em; }
+  h1 {
+    font-family: "Noto Serif KR", serif;
+    font-size: clamp(28px, 5vw, 40px);
+    line-height: 1.2;
+    margin: 6px 0 8px;
+  }
+  .meta { color: var(--muted); font-size: 14px; }
+
+  .controls {
+    position: sticky; top: 0; z-index: 5;
+    background: color-mix(in srgb, var(--bg) 92%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 0;
+  }
+  .controls .wrap { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; justify-content: space-between; }
+  .seg { display: inline-flex; background: var(--surface-2); border-radius: 999px; padding: 4px; gap: 2px; }
+  .seg button {
+    border: 0; background: transparent; color: var(--muted);
+    font: inherit; font-weight: 500; padding: 7px 16px; border-radius: 999px; cursor: pointer;
+  }
+  .seg button[aria-pressed="true"] { background: var(--surface); color: var(--text); box-shadow: var(--shadow); font-weight: 700; }
+  .seg.cat button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+  .seg button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  main { padding: 24px 0 48px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 20px; }
+  .grid > *, .mini-grid > * { min-width: 0; }
+
+  .card {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    box-shadow: var(--shadow); overflow: hidden; display: flex; flex-direction: column;
+  }
+  .card-head {
+    display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    padding: 14px 16px; border-bottom: 1px solid var(--line);
+  }
+  .site { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 16px; }
+  .flag { font-size: 12px; font-weight: 700; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 0 5px; }
+  .badge { font-size: 12px; font-weight: 500; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); color: var(--muted); white-space: nowrap; }
+  .badge.ok { color: var(--ok); }
+  .badge.stale { color: var(--warn); }
+  .ext { font-size: 13px; color: var(--muted); text-decoration: none; white-space: nowrap; }
+  .ext:hover { color: var(--accent); }
+
+  ol.books { list-style: none; margin: 0; padding: 4px 0; }
+  ol.books li a {
+    display: grid; grid-template-columns: 26px 46px 1fr; gap: 12px; align-items: center;
+    padding: 9px 16px; text-decoration: none;
+  }
+  ol.books li a:hover { background: var(--surface-2); }
+  .rank { font-family: "Noto Serif KR", serif; font-weight: 700; font-size: 18px; text-align: center; color: var(--muted); }
+  li:nth-child(-n+3) .rank { color: var(--accent); }
+  .cover {
+    width: 46px; height: 66px; object-fit: cover; border-radius: 3px;
+    background: var(--surface-2); box-shadow: 0 1px 3px rgba(0,0,0,.15);
+  }
+  .info { min-width: 0; }
+  .title { font-weight: 500; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .sub { color: var(--muted); font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .card-foot { margin-top: auto; padding: 10px 16px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); }
+
+  h2.section { font-size: 15px; color: var(--muted); font-weight: 700; margin: 40px 0 12px; }
+  .mini-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(240px, 100%), 1fr)); gap: 12px; }
+  .mini {
+    background: var(--surface); border: 1px dashed var(--line); border-radius: 12px;
+    padding: 12px 14px; display: flex; flex-direction: column; gap: 4px;
+  }
+  .mini .row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+  .mini .note { color: var(--muted); font-size: 13px; }
+  .empty { color: var(--muted); padding: 32px 0; text-align: center; }
+
+  footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; padding: 20px 0 40px; }
+</style>
+</head>
+<body>
+<header class="wrap">
+  <div class="eyebrow">WEEKLY BESTSELLERS</div>
+  <h1>이번 주 베스트셀러</h1>
+  <div class="meta" id="meta">불러오는 중…</div>
+</header>
+
+<div class="controls">
+  <div class="wrap">
+    <div class="seg cat" id="catSeg" role="group" aria-label="분야"></div>
+    <div class="seg" id="countrySeg" role="group" aria-label="국가">
+      <button data-v="ALL" aria-pressed="true">전체</button>
+      <button data-v="KR" aria-pressed="false">한국</button>
+      <button data-v="US" aria-pressed="false">미국</button>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="grid" id="grid"></div>
+  <h2 class="section" id="otherTitle">공식 페이지 링크 · 준비 중</h2>
+  <div class="mini-grid" id="others"></div>
+</main>
+
+<footer class="wrap">
+  매주 월요일 오전 9시(한국 시간)에 자동으로 업데이트돼요. 순위와 가격은 각 서점의 공식 페이지를 기준으로 하며 수집 시점과 다를 수 있어요.
+</footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  const data = window.BESTSELLER_DATA;
+  const $ = (id) => document.getElementById(id);
+  if (!data) { $("meta").textContent = "데이터를 불러오지 못했어요."; return; }
+
+  const FLAG = { KR: "KR", US: "US" };
+  const STATUS = {
+    ok: ["ok", "수집 완료"], stale: ["stale", "지난 데이터"], error: ["", "수집 실패"],
+    pending: ["", "준비 중"], blocked: ["", "링크만 제공"], closed: ["", "서비스 종료"],
+  };
+  const state = { cat: read("cat") || data.categories[0].id, country: read("country") || "ALL" };
+
+  function read(k) { try { return localStorage.getItem("bs-" + k); } catch (e) { return null; } }
+  function save(k, v) { try { localStorage.setItem("bs-" + k, v); } catch (e) {} }
+  function el(tag, cls, text) {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (text != null) e.textContent = text;
+    return e;
+  }
+  function fmtDate(iso) {
+    if (!iso) return "";
+    const d = new Date(iso);
+    return d.toLocaleDateString("ko-KR", { year: "numeric", month: "long", day: "numeric", weekday: "short" });
+  }
+  function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : "#"; }
+
+  $("meta").textContent = "업데이트: " + fmtDate(data.updated_at) + " · 분야별 상위 10권";
+
+  // 분야 버튼
+  data.categories.forEach((c) => {
+    const b = el("button", null, c.name);
+    b.dataset.v = c.id;
+    $("catSeg").appendChild(b);
+  });
+  function bindSeg(id, key) {
+    $(id).addEventListener("click", (e) => {
+      const b = e.target.closest("button"); if (!b) return;
+      state[key] = b.dataset.v; save(key, b.dataset.v); render();
+    });
+  }
+  bindSeg("catSeg", "cat"); bindSeg("countrySeg", "country");
+
+  function siteHead(src, url) {
+    const head = el("div", "card-head");
+    const left = el("div", "site");
+    left.append(el("span", "flag", FLAG[src.country] || src.country), el("span", null, src.name));
+    const [cls, label] = STATUS[src.status] || ["", src.status];
+    left.append(el("span", "badge " + cls, label));
+    head.append(left);
+    if (url) {
+      const a = el("a", "ext", "공식 페이지 ↗");
+      a.href = safeUrl(url); a.target = "_blank"; a.rel = "noopener";
+      head.append(a);
+    }
+    return head;
+  }
+
+  function bookCard(src, list) {
+    const card = el("section", "card");
+    card.append(siteHead(src, list.url));
+    const ol = el("ol", "books");
+    list.items.forEach((b) => {
+      const li = el("li");
+      const a = el("a");
+      a.href = safeUrl(b.link); a.target = "_blank"; a.rel = "noopener";
+      a.title = b.title + (b.subtitle ? " — " + b.subtitle : "");
+      const img = el("img", "cover");
+      img.loading = "lazy"; img.alt = ""; img.referrerPolicy = "no-referrer";
+      if (b.image) img.src = safeUrl(b.image);
+      const info = el("div", "info");
+      info.append(el("div", "title", b.title));
+      info.append(el("div", "sub", [b.author, b.publisher].filter(Boolean).join(" · ")));
+      const stars = b.rating ? "★ " + b.rating + (b.rating_max ? "/" + b.rating_max : "") : "";
+      const extra = [b.price, stars].filter(Boolean).join("  ");
+      if (extra) info.append(el("div", "sub", extra));
+      a.append(el("span", "rank", b.rank), img, info);
+      li.append(a); ol.append(li);
+    });
+    card.append(ol);
+    const foot = list.error
+      ? "이번 주 수집 실패 · " + fmtDate(list.updated_at) + " 데이터 표시 중"
+      : "수집: " + fmtDate(list.updated_at);
+    card.append(el("div", "card-foot", foot));
+    return card;
+  }
+
+  function miniCard(src, list) {
+    const box = el("div", "mini");
+    const row = el("div", "row");
+    const name = el("div", "site");
+    name.append(el("span", "flag", FLAG[src.country] || src.country), el("span", null, src.name));
+    row.append(name);
+    const [cls, label] = STATUS[src.status] || ["", src.status];
+    row.append(el("span", "badge " + cls, label));
+    box.append(row);
+    if (src.note) box.append(el("div", "note", src.note));
+    if (list && list.url) {
+      const a = el("a", "ext", "베스트셀러 보러 가기 ↗");
+      a.href = safeUrl(list.url); a.target = "_blank"; a.rel = "noopener";
+      box.append(a);
+    }
+    return box;
+  }
+
+  function render() {
+    document.querySelectorAll("#catSeg button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.v === state.cat));
+    document.querySelectorAll("#countrySeg button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.v === state.country));
+
+    const grid = $("grid"), others = $("others");
+    grid.replaceChildren(); others.replaceChildren();
+    const srcs = data.sources.filter((s) => state.country === "ALL" || s.country === state.country);
+
+    srcs.forEach((s) => {
+      const list = (s.lists || {})[state.cat] || { items: [] };
+      if (list.items && list.items.length) grid.append(bookCard(s, list));
+      else others.append(miniCard(s, list));
+    });
+    if (!grid.children.length) grid.append(el("div", "empty", "이 조건에서 수집된 목록이 아직 없어요. 아래 공식 페이지 링크를 이용해 주세요."));
+    $("otherTitle").hidden = !others.children.length;
+  }
+  render();
+})();
+</script>
+</body>
+</html>

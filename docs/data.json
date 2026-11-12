@@ -1,0 +1,1495 @@
+{
+  "updated_at": "2026-11-12T10:59:08+09:00",
+  "categories": [
+    {
+      "id": "self_help",
+      "name": "자기계발"
+    },
+    {
+      "id": "kids",
+      "name": "아동"
+    },
+    {
+      "id": "economy",
+      "name": "경제"
+    }
+  ],
+  "sources": [
+    {
+      "id": "yes24",
+      "name": "예스24",
+      "country": "KR",
+      "status": "ok",
+      "note": "",
+      "lists": {
+        "self_help": {
+          "url": "https://www.yes24.com/Product/Category/BestSeller?categoryNumber=001001026",
+          "items": [
+            {
+              "rank": 1,
+              "title": "퍼플필",
+              "subtitle": "깨어나, 원하는 삶을 창조하라",
+              "author": "진쏠미",
+              "publisher": "클랩북스",
+              "pub_date": "2026년 11월",
+              "price": "19,800원",
+              "rating": "9.2",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/198328008/L",
+              "link": "https://www.yes24.com/product/goods/198328008"
+            },
+            {
+              "rank": 2,
+              "title": "아주 작은 습관의 힘 (50만 부 기념 스페셜 에디션)",
+              "subtitle": "최고의 변화는 어떻게 만들어지는가",
+              "author": "제임스 클리어, 이한이",
+              "publisher": "비즈니스북스",
+              "pub_date": "2019년 02월",
+              "price": "16,200원",
+              "rating": "9.4",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/69655504/L",
+              "link": "https://www.yes24.com/product/goods/69655504"
+            },
+            {
+              "rank": 3,
+              "title": "방을 치웠을 뿐인데 운이 트이기 시작했다",
+              "subtitle": "400만 명의 인생을 바꾼 기적의 청소력",
+              "author": "마스다 미츠히로, 장은주",
+              "publisher": "서스테인",
+              "pub_date": "2026년 10월",
+              "price": "16,200원",
+              "rating": "9.8",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/197189097/L",
+              "link": "https://www.yes24.com/product/goods/197189097"
+            },
+            {
+              "rank": 4,
+              "title": "부자의 5가지 철학",
+              "subtitle": "",
+              "author": "사힐 블룸, 신영준, 고영성",
+              "publisher": "상상스퀘어",
+              "pub_date": "2026년 10월",
+              "price": "22,500원",
+              "rating": "9.7",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/197965502/L",
+              "link": "https://www.yes24.com/product/goods/197965502"
+            },
+            {
+              "rank": 5,
+              "title": "일 잘하는 사람은 AI를 이렇게 쓴다",
+              "subtitle": "1,000회 AI 교육 현장에서 검증한 업무 효율화 공식과 실전 워크북",
+              "author": "정보근",
+              "publisher": "지니의서재",
+              "pub_date": "2026년 11월",
+              "price": "20,520원",
+              "rating": "10.0",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/199212216/L",
+              "link": "https://www.yes24.com/product/goods/199212216"
+            },
+            {
+              "rank": 6,
+              "title": "두려움 없는 삶에 대하여",
+              "subtitle": "에픽테토스 스토아 철학 전집",
+              "author": "에픽테토스, 박문재",
+              "publisher": "현대지성",
+              "pub_date": "2026년 10월",
+              "price": "25,200원",
+              "rating": "9.6",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/197315943/L",
+              "link": "https://www.yes24.com/product/goods/197315943"
+            },
+            {
+              "rank": 7,
+              "title": "시추에이티드",
+              "subtitle": "의지, 노력, 끈기를 성공으로 연결하는 사람과 장소의 힘",
+              "author": "앤절라 더크워스, 신솔잎",
+              "publisher": "비즈니스북스",
+              "pub_date": "2026년 11월",
+              "price": "19,800원",
+              "rating": "10.0",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/198974415/L",
+              "link": "https://www.yes24.com/product/goods/198974415"
+            },
+            {
+              "rank": 8,
+              "title": "독서의 기술",
+              "subtitle": "책은 어떻게 삶의 무기가 되는가 / 서점인이 뽑은 올해의 책",
+              "author": "고명환",
+              "publisher": "라곰",
+              "pub_date": "2026년 07월",
+              "price": "17,820원",
+              "rating": "9.6",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/192555379/L",
+              "link": "https://www.yes24.com/product/goods/192555379"
+            },
+            {
+              "rank": 9,
+              "title": "운이 좋은 사람은 이렇게 합니다",
+              "subtitle": "박성준 역술가가 수만 건의 상담을 통해 밝힌 대운의 법칙",
+              "author": "박성준",
+              "publisher": "페이지2북스",
+              "pub_date": "2026년 09월",
+              "price": "17,820원",
+              "rating": "9.8",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/196499741/L",
+              "link": "https://www.yes24.com/product/goods/196499741"
+            },
+            {
+              "rank": 10,
+              "title": "데일 카네기 인간관계론 (50만부 돌파 초판 무삭제 완역본)",
+              "subtitle": "",
+              "author": "데일 카네기, 임상훈",
+              "publisher": "현대지성",
+              "pub_date": "2019년 10월",
+              "price": "10,350원",
+              "rating": "9.6",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/79297023/L",
+              "link": "https://www.yes24.com/product/goods/79297023"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        },
+        "kids": {
+          "url": "https://www.yes24.com/Product/Category/BestSeller?categoryNumber=001001016",
+          "items": [
+            {
+              "rank": 1,
+              "title": "초등 3년 Q&A 다이어리",
+              "subtitle": "하루 1질문, 1문장, 3년 쓰기의 기적",
+              "author": "임민찬",
+              "publisher": "메가스터디북스",
+              "pub_date": "2026년 11월",
+              "price": "19,800원",
+              "rating": "10.0",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/197648767/L",
+              "link": "https://www.yes24.com/product/goods/197648767"
+            },
+            {
+              "rank": 2,
+              "title": "파도 수영 교실",
+              "subtitle": "야옹이 수영 교실 5",
+              "author": "신현경, 노예지",
+              "publisher": "북스그라운드",
+              "pub_date": "2026년 10월",
+              "price": "15,120원",
+              "rating": "10.0",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/199626360/L",
+              "link": "https://www.yes24.com/product/goods/199626360"
+            },
+            {
+              "rank": 3,
+              "title": "긴긴밤",
+              "subtitle": "",
+              "author": "루리",
+              "publisher": "문학동네",
+              "pub_date": "2021년 02월",
+              "price": "11,250원",
+              "rating": "9.8",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/97255028/L",
+              "link": "https://www.yes24.com/product/goods/97255028"
+            },
+            {
+              "rank": 4,
+              "title": "초등 한 문장 요약의 힘 3",
+              "subtitle": "초등 5~6학년",
+              "author": "엄인정, 신영서",
+              "publisher": "가로책길",
+              "pub_date": "2026년 11월",
+              "price": "17,820원",
+              "rating": "10.0",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/198011500/L",
+              "link": "https://www.yes24.com/product/goods/198011500"
+            },
+            {
+              "rank": 5,
+              "title": "흔한남매 23",
+              "subtitle": "",
+              "author": "흔한남매, 백난도, 유난희 외 1명",
+              "publisher": "미래엔아이세움",
+              "pub_date": "2026년 09월",
+              "price": "15,120원",
+              "rating": "9.9",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/196260891/L",
+              "link": "https://www.yes24.com/product/goods/196260891"
+            },
+            {
+              "rank": 6,
+              "title": "사이언스 2027",
+              "subtitle": "",
+              "author": "내셔널지오그래픽 키즈, 김아림, 이한음",
+              "publisher": "비룡소",
+              "pub_date": "2026년 09월",
+              "price": "25,200원",
+              "rating": "9.5",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/196816487/L",
+              "link": "https://www.yes24.com/product/goods/196816487"
+            },
+            {
+              "rank": 7,
+              "title": "공기뿌리",
+              "subtitle": "",
+              "author": "정은경, 임나운",
+              "publisher": "주니어김영사",
+              "pub_date": "2026년 10월",
+              "price": "12,600원",
+              "rating": "9.9",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/198244428/L",
+              "link": "https://www.yes24.com/product/goods/198244428"
+            },
+            {
+              "rank": 8,
+              "title": "[온라인 사인회 전용 상품] 지금 세계사 2",
+              "subtitle": "우리가 꼭 알아야 할",
+              "author": "최태성, 류경은",
+              "publisher": "다산어린이",
+              "pub_date": "2026년 11월",
+              "price": "15,120원",
+              "rating": "",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/199892073/L",
+              "link": "https://www.yes24.com/product/goods/199892073"
+            },
+            {
+              "rank": 9,
+              "title": "미야옹 마음 분식점 3 : 고양이 별에서 온 하트 이모티콘",
+              "subtitle": "",
+              "author": "주미, 안병현",
+              "publisher": "지구별아이",
+              "pub_date": "2026년 11월",
+              "price": "15,120원",
+              "rating": "10.0",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/199184673/L",
+              "link": "https://www.yes24.com/product/goods/199184673"
+            },
+            {
+              "rank": 10,
+              "title": "초등일타과학",
+              "subtitle": "",
+              "author": "이광렬",
+              "publisher": "코리아닷컴(Korea.com)",
+              "pub_date": "2025년 04월",
+              "price": "17,010원",
+              "rating": "10.0",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/145039550/L",
+              "link": "https://www.yes24.com/product/goods/145039550"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        },
+        "economy": {
+          "url": "https://www.yes24.com/Product/Category/BestSeller?categoryNumber=001001025",
+          "items": [
+            {
+              "rank": 1,
+              "title": "가짜 돈 진짜 부",
+              "subtitle": "화폐의 배신을 넘어 진짜 자산을 만드는 생존 전략",
+              "author": "박종훈",
+              "publisher": "글로퍼스",
+              "pub_date": "2026년 10월",
+              "price": "22,500원",
+              "rating": "9.4",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/197772287/L",
+              "link": "https://www.yes24.com/product/goods/197772287"
+            },
+            {
+              "rank": 2,
+              "title": "트렌드 코리아 2027",
+              "subtitle": "2027 대한민국 소비트렌드 전망",
+              "author": "김난도, 전미영, 최지혜 외 10명",
+              "publisher": "미래의창",
+              "pub_date": "2026년 09월",
+              "price": "19,800원",
+              "rating": "9.5",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/195842609/L",
+              "link": "https://www.yes24.com/product/goods/195842609"
+            },
+            {
+              "rank": 3,
+              "title": "돈, 뜨겁게 사랑하고 차갑게 다루어라",
+              "subtitle": "",
+              "author": "앙드레 코스톨라니, 한윤진",
+              "publisher": "미래의창",
+              "pub_date": "2023년 09월",
+              "price": "13,500원",
+              "rating": "9.4",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/122532297/L",
+              "link": "https://www.yes24.com/product/goods/122532297"
+            },
+            {
+              "rank": 4,
+              "title": "투자에 대한 생각",
+              "subtitle": "월스트리트가 가장 신뢰한 하워드 막스의 20가지 투자 철학",
+              "author": "하워드 막스, 김경미",
+              "publisher": "비즈니스맵",
+              "pub_date": "2012년 09월",
+              "price": "13,500원",
+              "rating": "9.1",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/7737244/L",
+              "link": "https://www.yes24.com/product/goods/7737244"
+            },
+            {
+              "rank": 5,
+              "title": "돈의 심리학 (50만 부 기념 뉴 에디션)",
+              "subtitle": "당신은 왜 부자가 되지 못했는가",
+              "author": "모건 하우절, 이지연",
+              "publisher": "인플루엔셜",
+              "pub_date": "2026년 01월",
+              "price": "22,320원",
+              "rating": "9.4",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/172574653/L",
+              "link": "https://www.yes24.com/product/goods/172574653"
+            },
+            {
+              "rank": 6,
+              "title": "머니 트렌드 2027",
+              "subtitle": "격변의 위기를 기회로 바꾸는 55가지 돈의 흐름",
+              "author": "정태익, 김도윤, 김광석 외 5명",
+              "publisher": "북모먼트",
+              "pub_date": "2026년 09월",
+              "price": "24,750원",
+              "rating": "9.7",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/195613503/L",
+              "link": "https://www.yes24.com/product/goods/195613503"
+            },
+            {
+              "rank": 7,
+              "title": "시대예보: 수고인류의 시간",
+              "subtitle": "",
+              "author": "송길영",
+              "publisher": "교보문고",
+              "pub_date": "2026년 09월",
+              "price": "19,800원",
+              "rating": "9.2",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/195804438/L",
+              "link": "https://www.yes24.com/product/goods/195804438"
+            },
+            {
+              "rank": 8,
+              "title": "박곰희 연금 부자 수업",
+              "subtitle": "4개의 통장으로 월 300만 원 만들기",
+              "author": "박곰희",
+              "publisher": "인플루엔셜",
+              "pub_date": "2025년 06월",
+              "price": "18,900원",
+              "rating": "9.6",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/148032819/L",
+              "link": "https://www.yes24.com/product/goods/148032819"
+            },
+            {
+              "rank": 9,
+              "title": "부자 방정식 G×R",
+              "subtitle": "당신의 ‘부’는 이미 결정되어 있다!",
+              "author": "이정윤",
+              "publisher": "베가북스",
+              "pub_date": "2026년 09월",
+              "price": "22,500원",
+              "rating": "9.8",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/197053067/L",
+              "link": "https://www.yes24.com/product/goods/197053067"
+            },
+            {
+              "rank": 10,
+              "title": "나의 첫 번째 부동산 교과서",
+              "subtitle": "",
+              "author": "송희구",
+              "publisher": "서삼독",
+              "pub_date": "2026년 06월",
+              "price": "20,700원",
+              "rating": "9.4",
+              "rating_max": 10,
+              "image": "https://image.yes24.com/goods/190813759/L",
+              "link": "https://www.yes24.com/product/goods/190813759"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "kyobo",
+      "name": "교보문고",
+      "country": "KR",
+      "status": "ok",
+      "note": "",
+      "lists": {
+        "self_help": {
+          "url": "https://store.kyobobook.co.kr/bestseller/online/weekly/domestic/15",
+          "items": [
+            {
+              "rank": 1,
+              "title": "퍼플필",
+              "subtitle": "",
+              "author": "진쏠미",
+              "publisher": "클랩북스",
+              "pub_date": "2026.11.17",
+              "price": "19,800원",
+              "rating": "9.07",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791193941836.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221661063"
+            },
+            {
+              "rank": 2,
+              "title": "부자의 5가지 철학",
+              "subtitle": "",
+              "author": "사힐 블룸",
+              "publisher": "상상스퀘어",
+              "pub_date": "2026.10.28",
+              "price": "22,500원",
+              "rating": "9.06",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124248638.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221599046"
+            },
+            {
+              "rank": 3,
+              "title": "아주 작은 습관의 힘(50만 부 기념 스페셜 에디션)",
+              "subtitle": "",
+              "author": "제임스 클리어",
+              "publisher": "비즈니스북스",
+              "pub_date": "2019.02.26",
+              "price": "16,200원",
+              "rating": "9.66",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791162540640.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000001813652"
+            },
+            {
+              "rank": 4,
+              "title": "마인드 저널링",
+              "subtitle": "",
+              "author": "고다연",
+              "publisher": "노들",
+              "pub_date": "2026.11.04",
+              "price": "17,820원",
+              "rating": "9.83",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791122023947.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221810876"
+            },
+            {
+              "rank": 5,
+              "title": "일 잘하는 사람은 AI를 이렇게 쓴다",
+              "subtitle": "",
+              "author": "정보근",
+              "publisher": "지니의서재",
+              "pub_date": "2026.11.10",
+              "price": "20,520원",
+              "rating": "10",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791194620464.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221753208"
+            },
+            {
+              "rank": 6,
+              "title": "데일 카네기 인간관계론(50만부 돌파 초판 무삭제 완역본)",
+              "subtitle": "",
+              "author": "데일 카네기",
+              "publisher": "현대지성",
+              "pub_date": "2019.10.07",
+              "price": "10,350원",
+              "rating": "9.7",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791187142560.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000001897788"
+            },
+            {
+              "rank": 7,
+              "title": "운이 좋은 사람은 이렇게 합니다",
+              "subtitle": "",
+              "author": "박성준",
+              "publisher": "페이지2북스",
+              "pub_date": "2026.09.23",
+              "price": "17,820원",
+              "rating": "9.84",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791169852302.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221281510"
+            },
+            {
+              "rank": 8,
+              "title": "시추에이티드",
+              "subtitle": "",
+              "author": "앤절라 더크워스",
+              "publisher": "비즈니스북스",
+              "pub_date": "2026.11.06",
+              "price": "19,800원",
+              "rating": "10",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791162545157.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221663869"
+            },
+            {
+              "rank": 9,
+              "title": "브레인악셀",
+              "subtitle": "",
+              "author": "이진우",
+              "publisher": "바른뇌연구소",
+              "pub_date": "2026.09.02",
+              "price": "19,800원",
+              "rating": "9.22",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791122075106.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000220930689"
+            },
+            {
+              "rank": 10,
+              "title": "마음은 그게 아닌데 말이 문제입니다",
+              "subtitle": "",
+              "author": "리징",
+              "publisher": "알토북스",
+              "pub_date": "2026.11.10",
+              "price": "17,820원",
+              "rating": "10",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791194655428.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221737356"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        },
+        "kids": {
+          "url": "https://store.kyobobook.co.kr/bestseller/online/weekly/domestic/42",
+          "items": [
+            {
+              "rank": 1,
+              "title": "사이언스 2027",
+              "subtitle": "",
+              "author": "National Geographic Kids",
+              "publisher": "비룡소",
+              "pub_date": "2026.09.30",
+              "price": "25,200원",
+              "rating": "9.62",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788949132464.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221414513"
+            },
+            {
+              "rank": 2,
+              "title": "파도 수영 교실",
+              "subtitle": "",
+              "author": "신현경",
+              "publisher": "북스그라운드",
+              "pub_date": "2026.10.30",
+              "price": "15,120원",
+              "rating": "9.91",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168344327.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221816673"
+            },
+            {
+              "rank": 3,
+              "title": "흔한남매 23",
+              "subtitle": "",
+              "author": "흔한남매",
+              "publisher": "미래엔아이세움",
+              "pub_date": "2026.09.16",
+              "price": "15,120원",
+              "rating": "9.92",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488854.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221248222"
+            },
+            {
+              "rank": 4,
+              "title": "긴긴밤",
+              "subtitle": "",
+              "author": "루리",
+              "publisher": "문학동네",
+              "pub_date": "2021.02.03",
+              "price": "11,250원",
+              "rating": "9.87",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788954677158.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000000780847"
+            },
+            {
+              "rank": 5,
+              "title": "세계와 지리 2027",
+              "subtitle": "",
+              "author": "내셔널지오그래픽 키즈 외",
+              "publisher": "비룡소",
+              "pub_date": "2026.10.16",
+              "price": "25,200원",
+              "rating": "10",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788949132723.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221644957"
+            },
+            {
+              "rank": 6,
+              "title": "읽으면서 바로 써먹는 어린이 보물섬 1: 사회·지리편",
+              "subtitle": "",
+              "author": "한날",
+              "publisher": "파란정원",
+              "pub_date": "2026.09.01",
+              "price": "11,700원",
+              "rating": "9.95",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791158683214.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221074626"
+            },
+            {
+              "rank": 7,
+              "title": "멜로우 TV 수학 퍼즐 매직 팡 2",
+              "subtitle": "",
+              "author": "멜로우TV",
+              "publisher": "주니어김영사",
+              "pub_date": "2026.10.29",
+              "price": "15,120원",
+              "rating": "10",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791173328558.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221773115"
+            },
+            {
+              "rank": 8,
+              "title": "처음 읽는 삼국지 5: 세 번의 발걸음",
+              "subtitle": "",
+              "author": "이문열",
+              "publisher": "미래엔아이세움",
+              "pub_date": "2026.08.27",
+              "price": "15,120원",
+              "rating": "9.95",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488625.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000220929345"
+            },
+            {
+              "rank": 9,
+              "title": "처음 읽는 그리스 로마 신화 15: 트로이의 마지막 불꽃",
+              "subtitle": "",
+              "author": "최설희",
+              "publisher": "미래엔아이세움",
+              "pub_date": "2026.08.27",
+              "price": "15,120원",
+              "rating": "9.97",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488731.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000220929341"
+            },
+            {
+              "rank": 10,
+              "title": "프뚜 100일 과학 X 생존 게임북 1",
+              "subtitle": "",
+              "author": "프뚜",
+              "publisher": "샌박스토리",
+              "pub_date": "2026.10.28",
+              "price": "15,120원",
+              "rating": "10",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124580103.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221804257"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        },
+        "economy": {
+          "url": "https://store.kyobobook.co.kr/bestseller/online/weekly/domestic/13",
+          "items": [
+            {
+              "rank": 1,
+              "title": "가짜 돈 진짜 부",
+              "subtitle": "",
+              "author": "박종훈",
+              "publisher": "글로퍼스",
+              "pub_date": "2026.10.16",
+              "price": "22,500원",
+              "rating": "9.79",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791198987679.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221580226"
+            },
+            {
+              "rank": 2,
+              "title": "트렌드 코리아 2027",
+              "subtitle": "",
+              "author": "김난도 외",
+              "publisher": "미래의창",
+              "pub_date": "2026.09.30",
+              "price": "19,800원",
+              "rating": "9.65",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124073483.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221151022"
+            },
+            {
+              "rank": 3,
+              "title": "돈, 뜨겁게 사랑하고 차갑게 다루어라",
+              "subtitle": "",
+              "author": "앙드레 코스톨라니",
+              "publisher": "미래의창",
+              "pub_date": "2023.09.21",
+              "price": "13,500원",
+              "rating": "9.8",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791192519883.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000209182287"
+            },
+            {
+              "rank": 4,
+              "title": "머니 트렌드 2027",
+              "subtitle": "",
+              "author": "정태익 외",
+              "publisher": "북모먼트",
+              "pub_date": "2026.09.16",
+              "price": "24,750원",
+              "rating": "9.81",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124038826.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221075112"
+            },
+            {
+              "rank": 5,
+              "title": "투자에 대한 생각",
+              "subtitle": "",
+              "author": "하워드 막스",
+              "publisher": "비즈니스맵",
+              "pub_date": "2012.09.28",
+              "price": "13,500원",
+              "rating": "9.61",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788962604658.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000000970535"
+            },
+            {
+              "rank": 6,
+              "title": "자본주의 시스템 해킹 매뉴얼",
+              "subtitle": "",
+              "author": "전쓰트",
+              "publisher": "좋은땅",
+              "pub_date": "2026.10.27",
+              "price": "16,200원",
+              "rating": "10",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791138870580.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221806754"
+            },
+            {
+              "rank": 7,
+              "title": "시대예보: 수고인류의 시간",
+              "subtitle": "",
+              "author": "송길영",
+              "publisher": "교보문고",
+              "pub_date": "2026.09.16",
+              "price": "19,800원",
+              "rating": "9.69",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791170614166.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221108246"
+            },
+            {
+              "rank": 8,
+              "title": "나의 첫 번째 부동산 교과서",
+              "subtitle": "",
+              "author": "송희구",
+              "publisher": "서삼독",
+              "pub_date": "2026.06.23",
+              "price": "20,700원",
+              "rating": "9.83",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791193904435.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000220119415"
+            },
+            {
+              "rank": 9,
+              "title": "돈의 심리학(50만 부 기념 뉴 에디션)",
+              "subtitle": "",
+              "author": "모건 하우절",
+              "publisher": "인플루엔셜",
+              "pub_date": "2026.01.14",
+              "price": "22,320원",
+              "rating": "9.85",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168343443.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000218942259"
+            },
+            {
+              "rank": 10,
+              "title": "재무덕후 이재용의 숫자로 기업 읽기",
+              "subtitle": "",
+              "author": "이재용",
+              "publisher": "인플루엔셜",
+              "pub_date": "2026.10.14",
+              "price": "21,600원",
+              "rating": "9.79",
+              "rating_max": 10,
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168344297.jpg?t=2990747",
+              "link": "https://product.kyobobook.co.kr/detail/S000221569601"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "aladin",
+      "name": "알라딘",
+      "country": "KR",
+      "status": "pending",
+      "note": "공식 Open API(TTB키) 연동 준비 중",
+      "lists": {
+        "self_help": {
+          "url": "https://www.aladin.co.kr/shop/common/wbest.aspx?BestType=Bestseller&BranchType=1&CID=336",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "kids": {
+          "url": "https://www.aladin.co.kr/shop/common/wbest.aspx?BestType=Bestseller&BranchType=1&CID=1108",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "economy": {
+          "url": "https://www.aladin.co.kr/shop/common/wbest.aspx?BestType=Bestseller&BranchType=1&CID=170",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "ypbooks",
+      "name": "영풍문고",
+      "country": "KR",
+      "status": "ok",
+      "note": "",
+      "lists": {
+        "self_help": {
+          "url": "https://www.ypbooks.co.kr/bestseller/week",
+          "items": [
+            {
+              "rank": 1,
+              "title": "운이 좋은 사람은 이렇게 합니다",
+              "subtitle": "박성준 역술가가 수만 건의 상담을 통해 밝힌 대운의 법칙",
+              "author": "박성준",
+              "publisher": "페이지2",
+              "pub_date": "2026년 09월",
+              "price": "17,820원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202609/df6348bb-3e5e-4329-aecc-2516a25a62e7.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202609146853404228"
+            },
+            {
+              "rank": 2,
+              "title": "아주 작은 습관의 힘(50만 부 기념 스페셜 에디션)",
+              "subtitle": "최고의 변화는 어떻게 만들어지는가",
+              "author": "제임스클리어",
+              "publisher": "비즈니스북스",
+              "pub_date": "2019년 02월",
+              "price": "16,200원",
+              "rating": "4.9",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202512/a40c8367-c779-468c-acd2-eed74b12e2eb.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202308231758993253"
+            },
+            {
+              "rank": 3,
+              "title": "데일 카네기 인간관계론(50만부 돌파 초판 무삭제 완역본)",
+              "subtitle": "",
+              "author": "데일 카네기",
+              "publisher": "현대지성",
+              "pub_date": "2019년 10월",
+              "price": "10,350원",
+              "rating": "4.9",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202411/cca619a1-f59a-4c42-ae1f-62c72bfa7d98.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202308233381912113"
+            },
+            {
+              "rank": 4,
+              "title": "퍼플필",
+              "subtitle": "깨어나 원하는 삶을 창조하라!",
+              "author": "진쏠미",
+              "publisher": "클랩북스",
+              "pub_date": "2026년 11월",
+              "price": "19,800원",
+              "rating": "",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202610/c5e28f88-72f7-4b3c-87b9-49479faa4803.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202610168927702430"
+            },
+            {
+              "rank": 5,
+              "title": "말투만 바꿨을 뿐인데(10만 부 기념 개정판)",
+              "subtitle": "",
+              "author": "김민성",
+              "publisher": "모티브",
+              "pub_date": "2026년 06월",
+              "price": "17,820원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202605/09f64f56-7c8b-4233-b7b7-45ca35f28dbb.jpeg",
+              "link": "https://www.ypbooks.co.kr/books/202605220877906506"
+            },
+            {
+              "rank": 6,
+              "title": "세이노의 가르침",
+              "subtitle": "피보다 진하게 살아라",
+              "author": "세이노(SayNo)",
+              "publisher": "데이원",
+              "pub_date": "2023년 03월",
+              "price": "6,480원",
+              "rating": "3.9",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202508/ba1647f6-9e6d-48af-8cd0-58852f88aff4.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202308231838272334"
+            },
+            {
+              "rank": 7,
+              "title": "부자의 5가지 철학",
+              "subtitle": "",
+              "author": "사힐 블룸",
+              "publisher": "상상스퀘어",
+              "pub_date": "2026년 10월",
+              "price": "22,500원",
+              "rating": "",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202610/5271abcc-1b69-4612-9b32-fe1d90e7d0cc.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202610130798027801"
+            },
+            {
+              "rank": 8,
+              "title": "내면 근력",
+              "subtitle": "",
+              "author": "짐 머피",
+              "publisher": "윌북",
+              "pub_date": "2026년 04월",
+              "price": "19,800원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202603/5b5baa38-9132-4eb8-a5a4-cfe94364aed1.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202603270772416130"
+            },
+            {
+              "rank": 9,
+              "title": "딱 1년만 미쳐라",
+              "subtitle": "평생을 갇혀 있을 것인가 1년의 몰입으로 깨어날 것인가",
+              "author": "리치파카 (강연주)",
+              "publisher": "모티브",
+              "pub_date": "2026년 03월",
+              "price": "17,820원",
+              "rating": "4.9",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202603/80109411-09ed-407c-8b4f-e0afba288654.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202603108834444400"
+            },
+            {
+              "rank": 10,
+              "title": "독서의 기술",
+              "subtitle": "책은 어떻게 삶의 무기가 되는가(서점인이 뽑은 올해의 책)",
+              "author": "고명환",
+              "publisher": "라곰",
+              "pub_date": "2026년 07월",
+              "price": "17,820원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202607/323798da-72dc-41c2-91ac-d338cddaa6de.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202606246780810054"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        },
+        "kids": {
+          "url": "https://www.ypbooks.co.kr/bestseller/week",
+          "items": [
+            {
+              "rank": 1,
+              "title": "흔한남매 23",
+              "subtitle": "",
+              "author": "흔한남매(원작), 백난도",
+              "publisher": "미래엔아이세움",
+              "pub_date": "2026년 09월",
+              "price": "15,120원",
+              "rating": "4.8",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202609/2628332b-ab09-4116-9dfa-dcf42d772ecc.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202609099776281985"
+            },
+            {
+              "rank": 2,
+              "title": "프뚜 100일 과학 X 생존 게임북 1",
+              "subtitle": "무인도 생존",
+              "author": "프뚜(원작), 최재연",
+              "publisher": "샌박스토리",
+              "pub_date": "2026년 10월",
+              "price": "15,120원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202610/508fe3a1-a092-4894-832a-1e49e673515f.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202610272628732105"
+            },
+            {
+              "rank": 3,
+              "title": "파도 수영 교실 (야옹이 수영 교실 5)",
+              "subtitle": "",
+              "author": "신현경",
+              "publisher": "북스그라운드",
+              "pub_date": "2026년 10월",
+              "price": "15,120원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202610/6ab864b7-d22f-45a8-9329-5b29784f93ea.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202610297353443648"
+            },
+            {
+              "rank": 4,
+              "title": "멜로우 TV 팀 나빠 추리 탐정단 1",
+              "subtitle": "",
+              "author": "멜로우 TV(원작), 김정욱",
+              "publisher": "주니어김영사",
+              "pub_date": "2026년 09월",
+              "price": "15,120원",
+              "rating": "4.7",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202609/c4955c09-e0e6-4ccd-bcba-c05a17b70265.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202609092672583015"
+            },
+            {
+              "rank": 5,
+              "title": "읽으면서 바로 써먹는 어린이 보물섬 1 : 사회 지리편(맛있는 공부 75)",
+              "subtitle": "",
+              "author": "한날",
+              "publisher": "파란정원",
+              "pub_date": "2026년 09월",
+              "price": "11,700원",
+              "rating": "4.8",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202608/4c8a0c9d-b2c3-49dc-8a68-b2a040ea1b10.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202608288518520457"
+            },
+            {
+              "rank": 6,
+              "title": "포켓몬 대도감 1020+",
+              "subtitle": "",
+              "author": "Junji KAWASHIMA(가와시마 준지) (구성)",
+              "publisher": "대원키즈",
+              "pub_date": "2026년 03월",
+              "price": "13,500원",
+              "rating": "4.9",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202603/a892075f-9a19-4d20-b3bd-a089dabd9f3f.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202603200547071601"
+            },
+            {
+              "rank": 7,
+              "title": "김동희 세계관 호기심 환장 RPG 2",
+              "subtitle": "과학 퀘스트 대모험",
+              "author": "김동희 세계관 (원작), 박종은",
+              "publisher": "아울북",
+              "pub_date": "2026년 10월",
+              "price": "15,210원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202610/214f39b9-ada7-40d9-93a2-d53718c2262b.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202610068783286000"
+            },
+            {
+              "rank": 8,
+              "title": "백앤아×고고프렌즈 국어별동대 1",
+              "subtitle": "시작",
+              "author": "백앤아(원작), 고고프렌즈 (원작), 한바리",
+              "publisher": "백앤아월드",
+              "pub_date": "2026년 07월",
+              "price": "15,120원",
+              "rating": "4",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202607/cf39d522-dfa6-407a-a384-8f5e3c6f6d6d.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202607020917292653"
+            },
+            {
+              "rank": 9,
+              "title": "흔한남매 이무기 4",
+              "subtitle": "이해하면 무서운 이야기",
+              "author": "흔한남매(원작), 이종혁",
+              "publisher": "미래엔아이세움",
+              "pub_date": "2026년 07월",
+              "price": "15,120원",
+              "rating": "4.8",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202607/6408508c-b597-49c5-8af8-9935312a19bb.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202607217069143321"
+            },
+            {
+              "rank": 10,
+              "title": "빨간내복야코 괴수대백과 1",
+              "subtitle": "",
+              "author": "빨간내복야코(원작)",
+              "publisher": "야야트라이브",
+              "pub_date": "2026년 09월",
+              "price": "13,500원",
+              "rating": "4.8",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202609/e8933725-3517-496d-8772-6c5abe060f8c.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202609146427743132"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        },
+        "economy": {
+          "url": "https://www.ypbooks.co.kr/bestseller/week",
+          "items": [
+            {
+              "rank": 1,
+              "title": "트렌드 코리아 2027",
+              "subtitle": "2027 대한민국 소비트렌드 전망",
+              "author": "김난도, 전미영, 최지혜 외 10명",
+              "publisher": "미래의창",
+              "pub_date": "2026년 09월",
+              "price": "19,800원",
+              "rating": "4.7",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202609/acae82c3-1830-4dcb-9050-99fd536e72aa.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202609026949801219"
+            },
+            {
+              "rank": 2,
+              "title": "돈 뜨겁게 사랑하고 차갑게 다루어라(개정판)(코스톨라니 투자총서1)",
+              "subtitle": "",
+              "author": "앙드레 코스톨라니",
+              "publisher": "미래의창",
+              "pub_date": "2023년 09월",
+              "price": "13,500원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/admin/image/product/202311/484394db-1a15-4afd-a70a-ab78e848d80f.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202310224852876239"
+            },
+            {
+              "rank": 3,
+              "title": "운이 좋은 사람은 이렇게 합니다",
+              "subtitle": "박성준 역술가가 수만 건의 상담을 통해 밝힌 대운의 법칙",
+              "author": "박성준",
+              "publisher": "페이지2",
+              "pub_date": "2026년 09월",
+              "price": "17,820원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202609/df6348bb-3e5e-4329-aecc-2516a25a62e7.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202609146853404228"
+            },
+            {
+              "rank": 4,
+              "title": "아주 작은 습관의 힘(50만 부 기념 스페셜 에디션)",
+              "subtitle": "최고의 변화는 어떻게 만들어지는가",
+              "author": "제임스클리어",
+              "publisher": "비즈니스북스",
+              "pub_date": "2019년 02월",
+              "price": "16,200원",
+              "rating": "4.9",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202512/a40c8367-c779-468c-acd2-eed74b12e2eb.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202308231758993253"
+            },
+            {
+              "rank": 5,
+              "title": "데일 카네기 인간관계론(50만부 돌파 초판 무삭제 완역본)",
+              "subtitle": "",
+              "author": "데일 카네기",
+              "publisher": "현대지성",
+              "pub_date": "2019년 10월",
+              "price": "10,350원",
+              "rating": "4.9",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202411/cca619a1-f59a-4c42-ae1f-62c72bfa7d98.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202308233381912113"
+            },
+            {
+              "rank": 6,
+              "title": "퍼플필",
+              "subtitle": "깨어나 원하는 삶을 창조하라!",
+              "author": "진쏠미",
+              "publisher": "클랩북스",
+              "pub_date": "2026년 11월",
+              "price": "19,800원",
+              "rating": "",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202610/c5e28f88-72f7-4b3c-87b9-49479faa4803.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202610168927702430"
+            },
+            {
+              "rank": 7,
+              "title": "말투만 바꿨을 뿐인데(10만 부 기념 개정판)",
+              "subtitle": "",
+              "author": "김민성",
+              "publisher": "모티브",
+              "pub_date": "2026년 06월",
+              "price": "17,820원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202605/09f64f56-7c8b-4233-b7b7-45ca35f28dbb.jpeg",
+              "link": "https://www.ypbooks.co.kr/books/202605220877906506"
+            },
+            {
+              "rank": 8,
+              "title": "머니 트렌드 2027",
+              "subtitle": "격변의 위기를 기회로 바꾸는 55가지 돈의 흐름",
+              "author": "정태익, 김도윤, 김광석 외 5명",
+              "publisher": "북모먼트",
+              "pub_date": "2026년 09월",
+              "price": "24,750원",
+              "rating": "5",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202608/9aa4da2d-cfe8-47fb-9da7-723a219f1aeb.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202608286753847977"
+            },
+            {
+              "rank": 9,
+              "title": "가짜 돈 진짜 부",
+              "subtitle": "화폐의 배신을 넘어 진짜 자산을 만드는 생존 전략",
+              "author": "박종훈",
+              "publisher": "글로퍼스",
+              "pub_date": "2026년 10월",
+              "price": "22,500원",
+              "rating": "4.7",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202610/a4c54c7e-181e-4c71-9bd3-d2132bdf5288.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202610080689933220"
+            },
+            {
+              "rank": 10,
+              "title": "세이노의 가르침",
+              "subtitle": "피보다 진하게 살아라",
+              "author": "세이노(SayNo)",
+              "publisher": "데이원",
+              "pub_date": "2023년 03월",
+              "price": "6,480원",
+              "rating": "3.9",
+              "rating_max": 5,
+              "image": "https://cdn.ypbooks.co.kr/image/product/202508/ba1647f6-9e6d-48af-8cd0-58852f88aff4.jpg",
+              "link": "https://www.ypbooks.co.kr/books/202308231838272334"
+            }
+          ],
+          "updated_at": "2026-11-12T10:59:08+09:00",
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "interpark",
+      "name": "인터파크 도서",
+      "country": "KR",
+      "status": "closed",
+      "note": "서비스 종료로 접속 불가",
+      "lists": {
+        "self_help": {
+          "url": "",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "kids": {
+          "url": "",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "economy": {
+          "url": "",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "nyt",
+      "name": "NYT 베스트셀러",
+      "country": "US",
+      "status": "pending",
+      "note": "공식 API 연동 준비 중 (Amazon 대체 후보)",
+      "lists": {
+        "self_help": {
+          "url": "https://www.nytimes.com/books/best-sellers/advice-how-to-and-miscellaneous/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "kids": {
+          "url": "https://www.nytimes.com/books/best-sellers/childrens-middle-grade-hardcover/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "economy": {
+          "url": "https://www.nytimes.com/books/best-sellers/business-books/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "country": "US",
+      "status": "blocked",
+      "note": "이용약관상 자동 수집 금지 — 링크로 제공",
+      "lists": {
+        "self_help": {
+          "url": "https://www.amazon.com/gp/bestsellers/books/4736",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "kids": {
+          "url": "https://www.amazon.com/gp/bestsellers/books/4",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "economy": {
+          "url": "https://www.amazon.com/gp/bestsellers/books/2665",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "bn",
+      "name": "Barnes & Noble",
+      "country": "US",
+      "status": "pending",
+      "note": "수집 가능 여부 확인 중",
+      "lists": {
+        "self_help": {
+          "url": "https://www.barnesandnoble.com/b/the-barnes-noble-top-100/_/N-1p3n",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "kids": {
+          "url": "https://www.barnesandnoble.com/b/the-barnes-noble-top-100/_/N-1p3n",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "economy": {
+          "url": "https://www.barnesandnoble.com/b/the-barnes-noble-top-100/_/N-1p3n",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "bookshop",
+      "name": "Bookshop.org",
+      "country": "US",
+      "status": "blocked",
+      "note": "봇 차단(Cloudflare) — 링크로 제공",
+      "lists": {
+        "self_help": {
+          "url": "https://bookshop.org/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "kids": {
+          "url": "https://bookshop.org/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "economy": {
+          "url": "https://bookshop.org/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "bam",
+      "name": "Books-A-Million",
+      "country": "US",
+      "status": "blocked",
+      "note": "봇 차단(Cloudflare) — 링크로 제공",
+      "lists": {
+        "self_help": {
+          "url": "https://www.booksamillion.com/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "kids": {
+          "url": "https://www.booksamillion.com/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "economy": {
+          "url": "https://www.booksamillion.com/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        }
+      }
+    },
+    {
+      "id": "thriftbooks",
+      "name": "ThriftBooks",
+      "country": "US",
+      "status": "blocked",
+      "note": "봇 차단 — 링크로 제공",
+      "lists": {
+        "self_help": {
+          "url": "https://www.thriftbooks.com/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "kids": {
+          "url": "https://www.thriftbooks.com/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        },
+        "economy": {
+          "url": "https://www.thriftbooks.com/",
+          "items": [],
+          "updated_at": null,
+          "error": null
+        }
+      }
+    }
+  ]
+}

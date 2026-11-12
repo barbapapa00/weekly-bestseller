@@ -124,7 +124,7 @@
   }
   .mini .row { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
   .mini .note { color: var(--muted); font-size: 13px; }
-  .empty { color: var(--muted); padding: 32px 0; text-align: center; }
+  .empty { grid-column: 1 / -1; color: var(--muted); padding: 32px 0; text-align: center; }
 
   footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; padding: 20px 0 40px; }
 </style>
@@ -149,7 +149,7 @@
 
 <main class="wrap">
   <div class="grid" id="grid"></div>
-  <h2 class="section" id="otherTitle">공식 페이지 링크 · 준비 중</h2>
+  <h2 class="section" id="otherTitle">다른 서점 베스트셀러 바로가기</h2>
   <div class="mini-grid" id="others"></div>
 </main>
 
@@ -167,7 +167,7 @@
   const FLAG = { KR: "KR", US: "US" };
   const STATUS = {
     ok: ["ok", "수집 완료"], stale: ["stale", "지난 데이터"], error: ["", "수집 실패"],
-    pending: ["", "준비 중"], blocked: ["", "링크만 제공"], closed: ["", "서비스 종료"],
+    pending: ["", "준비 중"], blocked: ["", "링크"], closed: ["", "서비스 종료"],
   };
   const state = { cat: read("cat") || data.categories[0].id, country: read("country") || "ALL" };
 
@@ -186,7 +186,8 @@
   }
   function safeUrl(u) { return /^https?:\/\//.test(u || "") ? u : "#"; }
 
-  $("meta").textContent = "업데이트: " + fmtDate(data.updated_at) + " · 분야별 상위 10권";
+  const collected = data.sources.filter((s) => s.status === "ok" || s.status === "stale").map((s) => s.name);
+  $("meta").textContent = "업데이트: " + fmtDate(data.updated_at) + " · " + collected.join("·") + " 분야별 상위 10권";
 
   // 분야 버튼
   data.categories.forEach((c) => {
@@ -277,7 +278,12 @@
       if (list.items && list.items.length) grid.append(bookCard(s, list));
       else others.append(miniCard(s, list));
     });
-    if (!grid.children.length) grid.append(el("div", "empty", "이 조건에서 수집된 목록이 아직 없어요. 아래 공식 페이지 링크를 이용해 주세요."));
+    if (!grid.children.length) {
+      const msg = state.country === "US"
+        ? "미국 서점은 순위를 자동으로 모으지 않고 링크로만 제공해요. 아래에서 각 서점의 베스트셀러를 바로 확인해 보세요."
+        : "이 조건에서 수집된 목록이 없어요. 아래 링크를 이용해 주세요.";
+      grid.append(el("div", "empty", msg));
+    }
     $("otherTitle").hidden = !others.children.length;
   }
   render();

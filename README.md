@@ -33,9 +33,8 @@ start docs\index.html
 |---|---|
 | 예스24 | ✅ 수집 중 (일반 HTML) |
 | 교보문고, 영풍문고 | ✅ 수집 중 (Playwright로 브라우저 렌더링) |
-| 알라딘 | 준비 중 (공식 Open API, TTB키 필요) |
-| NYT 베스트셀러 | 준비 중 (공식 API 키 필요, Amazon 대체 후보) |
-| Barnes & Noble | 수집 가능 여부 확인 중 |
+| 알라딘 | robots.txt가 자동 수집 비허용 → 링크만 제공 (공식 Open API TTB키가 있으면 추가 가능) |
+| NYT 베스트셀러, Barnes & Noble | 링크만 제공 (NYT는 공식 API 키가 있으면 추가 가능) |
 | Amazon | 약관상 자동 수집 금지 → 링크만 제공 |
 | Bookshop.org, Books-A-Million, ThriftBooks | 봇 차단 → 링크만 제공 |
 | 인터파크 도서 | 서비스 종료 |

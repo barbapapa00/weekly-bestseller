@@ -1,5 +1,5 @@
 window.BESTSELLER_DATA = {
-  "updated_at": "2026-11-12T11:26:58+09:00",
+  "updated_at": "2026-11-12T11:32:24+09:00",
   "categories": [
     {
       "id": "self_help",
@@ -156,7 +156,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.yes24.com/product/goods/79297023"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         },
         "kids": {
@@ -293,7 +293,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.yes24.com/product/goods/145039550"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         },
         "economy": {
@@ -430,7 +430,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.yes24.com/product/goods/190813759"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         }
       }
@@ -455,7 +455,7 @@ window.BESTSELLER_DATA = {
               "price": "19,800원",
               "rating": "9.07",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791193941836.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791193941836.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221661063"
             },
             {
@@ -468,7 +468,7 @@ window.BESTSELLER_DATA = {
               "price": "22,500원",
               "rating": "9.06",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124248638.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124248638.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221599046"
             },
             {
@@ -481,7 +481,7 @@ window.BESTSELLER_DATA = {
               "price": "16,200원",
               "rating": "9.66",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791162540640.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791162540640.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000001813652"
             },
             {
@@ -494,7 +494,7 @@ window.BESTSELLER_DATA = {
               "price": "17,820원",
               "rating": "9.83",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791122023947.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791122023947.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221810876"
             },
             {
@@ -507,7 +507,7 @@ window.BESTSELLER_DATA = {
               "price": "20,520원",
               "rating": "10",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791194620464.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791194620464.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221753208"
             },
             {
@@ -520,7 +520,7 @@ window.BESTSELLER_DATA = {
               "price": "10,350원",
               "rating": "9.7",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791187142560.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791187142560.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000001897788"
             },
             {
@@ -533,7 +533,7 @@ window.BESTSELLER_DATA = {
               "price": "17,820원",
               "rating": "9.84",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791169852302.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791169852302.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221281510"
             },
             {
@@ -546,7 +546,7 @@ window.BESTSELLER_DATA = {
               "price": "19,800원",
               "rating": "10",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791162545157.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791162545157.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221663869"
             },
             {
@@ -559,7 +559,7 @@ window.BESTSELLER_DATA = {
               "price": "19,800원",
               "rating": "9.22",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791122075106.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791122075106.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000220930689"
             },
             {
@@ -572,11 +572,11 @@ window.BESTSELLER_DATA = {
               "price": "17,820원",
               "rating": "10",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791194655428.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791194655428.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221737356"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         },
         "kids": {
@@ -592,7 +592,7 @@ window.BESTSELLER_DATA = {
               "price": "25,200원",
               "rating": "9.62",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788949132464.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788949132464.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221414513"
             },
             {
@@ -605,7 +605,7 @@ window.BESTSELLER_DATA = {
               "price": "15,120원",
               "rating": "9.91",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168344327.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168344327.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221816673"
             },
             {
@@ -618,7 +618,7 @@ window.BESTSELLER_DATA = {
               "price": "15,120원",
               "rating": "9.92",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488854.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488854.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221248222"
             },
             {
@@ -631,7 +631,7 @@ window.BESTSELLER_DATA = {
               "price": "11,250원",
               "rating": "9.87",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788954677158.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788954677158.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000000780847"
             },
             {
@@ -644,7 +644,7 @@ window.BESTSELLER_DATA = {
               "price": "25,200원",
               "rating": "10",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788949132723.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788949132723.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221644957"
             },
             {
@@ -657,7 +657,7 @@ window.BESTSELLER_DATA = {
               "price": "11,700원",
               "rating": "9.95",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791158683214.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791158683214.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221074626"
             },
             {
@@ -670,7 +670,7 @@ window.BESTSELLER_DATA = {
               "price": "15,120원",
               "rating": "10",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791173328558.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791173328558.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221773115"
             },
             {
@@ -683,7 +683,7 @@ window.BESTSELLER_DATA = {
               "price": "15,120원",
               "rating": "9.95",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488625.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488625.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000220929345"
             },
             {
@@ -696,7 +696,7 @@ window.BESTSELLER_DATA = {
               "price": "15,120원",
               "rating": "9.97",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488731.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791175488731.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000220929341"
             },
             {
@@ -709,11 +709,11 @@ window.BESTSELLER_DATA = {
               "price": "15,120원",
               "rating": "10",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124580103.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124580103.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221804257"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         },
         "economy": {
@@ -729,7 +729,7 @@ window.BESTSELLER_DATA = {
               "price": "22,500원",
               "rating": "9.79",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791198987679.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791198987679.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221580226"
             },
             {
@@ -742,7 +742,7 @@ window.BESTSELLER_DATA = {
               "price": "19,800원",
               "rating": "9.65",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124073483.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124073483.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221151022"
             },
             {
@@ -755,7 +755,7 @@ window.BESTSELLER_DATA = {
               "price": "13,500원",
               "rating": "9.8",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791192519883.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791192519883.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000209182287"
             },
             {
@@ -768,7 +768,7 @@ window.BESTSELLER_DATA = {
               "price": "24,750원",
               "rating": "9.81",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124038826.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791124038826.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221075112"
             },
             {
@@ -781,7 +781,7 @@ window.BESTSELLER_DATA = {
               "price": "13,500원",
               "rating": "9.61",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788962604658.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9788962604658.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000000970535"
             },
             {
@@ -794,7 +794,7 @@ window.BESTSELLER_DATA = {
               "price": "16,200원",
               "rating": "10",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791138870580.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791138870580.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221806754"
             },
             {
@@ -807,7 +807,7 @@ window.BESTSELLER_DATA = {
               "price": "19,800원",
               "rating": "9.69",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791170614166.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791170614166.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221108246"
             },
             {
@@ -820,7 +820,7 @@ window.BESTSELLER_DATA = {
               "price": "20,700원",
               "rating": "9.83",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791193904435.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791193904435.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000220119415"
             },
             {
@@ -833,7 +833,7 @@ window.BESTSELLER_DATA = {
               "price": "22,320원",
               "rating": "9.85",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168343443.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168343443.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000218942259"
             },
             {
@@ -846,11 +846,11 @@ window.BESTSELLER_DATA = {
               "price": "21,600원",
               "rating": "9.79",
               "rating_max": 10,
-              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168344297.jpg?t=2990750",
+              "image": "https://contents.kyobobook.co.kr/sih/fit-in/300x0/pdt/9791168344297.jpg?t=2990751",
               "link": "https://product.kyobobook.co.kr/detail/S000221569601"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         }
       }
@@ -859,8 +859,8 @@ window.BESTSELLER_DATA = {
       "id": "aladin",
       "name": "알라딘",
       "country": "KR",
-      "status": "pending",
-      "note": "공식 Open API(TTB키) 연동 준비 중",
+      "status": "blocked",
+      "note": "온라인 신간과 중고서점으로 유명한 서점",
       "lists": {
         "self_help": {
           "url": "https://www.aladin.co.kr/shop/common/wbest.aspx?BestType=Bestseller&BranchType=1&CID=336",
@@ -1023,7 +1023,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.ypbooks.co.kr/books/202606246780810054"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         },
         "kids": {
@@ -1160,7 +1160,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.ypbooks.co.kr/books/202609146427743132"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         },
         "economy": {
@@ -1297,7 +1297,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.ypbooks.co.kr/books/202308231838272334"
             }
           ],
-          "updated_at": "2026-11-12T11:26:58+09:00",
+          "updated_at": "2026-11-12T11:32:24+09:00",
           "error": null
         }
       }
@@ -1307,7 +1307,7 @@ window.BESTSELLER_DATA = {
       "name": "인터파크 도서",
       "country": "KR",
       "status": "closed",
-      "note": "서비스 종료로 접속 불가",
+      "note": "도서 서비스가 종료되었어요",
       "lists": {
         "self_help": {
           "url": "",
@@ -1333,8 +1333,8 @@ window.BESTSELLER_DATA = {
       "id": "nyt",
       "name": "NYT 베스트셀러",
       "country": "US",
-      "status": "pending",
-      "note": "공식 API 연동 준비 중 (Amazon 대체 후보)",
+      "status": "blocked",
+      "note": "미국에서 가장 권위 있는 베스트셀러 목록",
       "lists": {
         "self_help": {
           "url": "https://www.nytimes.com/books/best-sellers/advice-how-to-and-miscellaneous/",
@@ -1361,7 +1361,7 @@ window.BESTSELLER_DATA = {
       "name": "Amazon",
       "country": "US",
       "status": "blocked",
-      "note": "이용약관상 자동 수집 금지 — 링크로 제공",
+      "note": "세계 최대 온라인 서점",
       "lists": {
         "self_help": {
           "url": "https://www.amazon.com/gp/bestsellers/books/4736",
@@ -1376,7 +1376,7 @@ window.BESTSELLER_DATA = {
           "error": null
         },
         "economy": {
-          "url": "https://www.amazon.com/gp/bestsellers/books/2665",
+          "url": "https://www.amazon.com/gp/bestsellers/books/3",
           "items": [],
           "updated_at": null,
           "error": null
@@ -1387,23 +1387,23 @@ window.BESTSELLER_DATA = {
       "id": "bn",
       "name": "Barnes & Noble",
       "country": "US",
-      "status": "pending",
-      "note": "수집 가능 여부 확인 중",
+      "status": "blocked",
+      "note": "미국 최대 오프라인 서점 체인",
       "lists": {
         "self_help": {
-          "url": "https://www.barnesandnoble.com/b/the-barnes-noble-top-100/_/N-1p3n",
+          "url": "https://www.barnesandnoble.com/collections/books/bestselling-books",
           "items": [],
           "updated_at": null,
           "error": null
         },
         "kids": {
-          "url": "https://www.barnesandnoble.com/b/the-barnes-noble-top-100/_/N-1p3n",
+          "url": "https://www.barnesandnoble.com/collections/books/bestselling-books",
           "items": [],
           "updated_at": null,
           "error": null
         },
         "economy": {
-          "url": "https://www.barnesandnoble.com/b/the-barnes-noble-top-100/_/N-1p3n",
+          "url": "https://www.barnesandnoble.com/collections/books/bestselling-books",
           "items": [],
           "updated_at": null,
           "error": null
@@ -1415,7 +1415,7 @@ window.BESTSELLER_DATA = {
       "name": "Bookshop.org",
       "country": "US",
       "status": "blocked",
-      "note": "봇 차단(Cloudflare) — 링크로 제공",
+      "note": "판매 수익을 독립서점과 나누는 온라인 서점",
       "lists": {
         "self_help": {
           "url": "https://bookshop.org/",
@@ -1442,7 +1442,7 @@ window.BESTSELLER_DATA = {
       "name": "Books-A-Million",
       "country": "US",
       "status": "blocked",
-      "note": "봇 차단(Cloudflare) — 링크로 제공",
+      "note": "미국 남동부 중심의 대형 서점 체인",
       "lists": {
         "self_help": {
           "url": "https://www.booksamillion.com/",
@@ -1469,7 +1469,7 @@ window.BESTSELLER_DATA = {
       "name": "ThriftBooks",
       "country": "US",
       "status": "blocked",
-      "note": "봇 차단 — 링크로 제공",
+      "note": "미국 최대 중고서적 온라인 서점",
       "lists": {
         "self_help": {
           "url": "https://www.thriftbooks.com/",

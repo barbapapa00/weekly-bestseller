@@ -56,8 +56,8 @@ SOURCES = [
         },
     },
     {
-        "id": "aladin", "name": "알라딘", "country": "KR", "status": "pending",
-        "note": "공식 Open API(TTB키) 연동 준비 중",
+        "id": "aladin", "name": "알라딘", "country": "KR", "status": "blocked",
+        "note": "온라인 신간과 중고서점으로 유명한 서점",
         "urls": {
             "self_help": "https://www.aladin.co.kr/shop/common/wbest.aspx?BestType=Bestseller&BranchType=1&CID=336",
             "kids": "https://www.aladin.co.kr/shop/common/wbest.aspx?BestType=Bestseller&BranchType=1&CID=1108",
@@ -72,12 +72,12 @@ SOURCES = [
     },
     {
         "id": "interpark", "name": "인터파크 도서", "country": "KR", "status": "closed",
-        "note": "서비스 종료로 접속 불가",
+        "note": "도서 서비스가 종료되었어요",
         "urls": {},
     },
     {
-        "id": "nyt", "name": "NYT 베스트셀러", "country": "US", "status": "pending",
-        "note": "공식 API 연동 준비 중 (Amazon 대체 후보)",
+        "id": "nyt", "name": "NYT 베스트셀러", "country": "US", "status": "blocked",
+        "note": "미국에서 가장 권위 있는 베스트셀러 목록",
         "urls": {
             "self_help": "https://www.nytimes.com/books/best-sellers/advice-how-to-and-miscellaneous/",
             "kids": "https://www.nytimes.com/books/best-sellers/childrens-middle-grade-hardcover/",
@@ -86,31 +86,31 @@ SOURCES = [
     },
     {
         "id": "amazon", "name": "Amazon", "country": "US", "status": "blocked",
-        "note": "이용약관상 자동 수집 금지 — 링크로 제공",
+        "note": "세계 최대 온라인 서점",
         "urls": {
             "self_help": "https://www.amazon.com/gp/bestsellers/books/4736",
             "kids": "https://www.amazon.com/gp/bestsellers/books/4",
-            "economy": "https://www.amazon.com/gp/bestsellers/books/2665",
+            "economy": "https://www.amazon.com/gp/bestsellers/books/3",
         },
     },
     {
-        "id": "bn", "name": "Barnes & Noble", "country": "US", "status": "pending",
-        "note": "수집 가능 여부 확인 중",
-        "urls": {k: "https://www.barnesandnoble.com/b/the-barnes-noble-top-100/_/N-1p3n" for k in ("self_help", "kids", "economy")},
+        "id": "bn", "name": "Barnes & Noble", "country": "US", "status": "blocked",
+        "note": "미국 최대 오프라인 서점 체인",
+        "urls": {k: "https://www.barnesandnoble.com/collections/books/bestselling-books" for k in ("self_help", "kids", "economy")},
     },
     {
         "id": "bookshop", "name": "Bookshop.org", "country": "US", "status": "blocked",
-        "note": "봇 차단(Cloudflare) — 링크로 제공",
+        "note": "판매 수익을 독립서점과 나누는 온라인 서점",
         "urls": {k: "https://bookshop.org/" for k in ("self_help", "kids", "economy")},
     },
     {
         "id": "bam", "name": "Books-A-Million", "country": "US", "status": "blocked",
-        "note": "봇 차단(Cloudflare) — 링크로 제공",
+        "note": "미국 남동부 중심의 대형 서점 체인",
         "urls": {k: "https://www.booksamillion.com/" for k in ("self_help", "kids", "economy")},
     },
     {
         "id": "thriftbooks", "name": "ThriftBooks", "country": "US", "status": "blocked",
-        "note": "봇 차단 — 링크로 제공",
+        "note": "미국 최대 중고서적 온라인 서점",
         "urls": {k: "https://www.thriftbooks.com/" for k in ("self_help", "kids", "economy")},
     },
 ]
@@ -200,7 +200,7 @@ BROWSER = Browser()
 def collect_kyobo(url: str, **_) -> list[dict]:
     pg = BROWSER.page()
     pg.goto(url, wait_until="networkidle", timeout=60000)
-    pg.wait_for_selector("span.date", timeout=20000)
+    pg.wait_for_selector("span.date", state="attached", timeout=30000)
     soup = BeautifulSoup(pg.content(), "html.parser")
     items, seen = [], set()
     for li in soup.select("li"):
@@ -295,6 +295,19 @@ COLLECTORS = {
 
 # ---------------------------------------------------------------- 실행
 
+def with_retry(fn, url: str, attempts: int = 2, **kw) -> list[dict]:
+    """일시적인 지연·오류에 대비해 실패하면 잠시 쉬었다가 다시 시도한다."""
+    for i in range(attempts):
+        try:
+            return fn(url, **kw)
+        except Exception as e:
+            if i == attempts - 1:
+                raise
+            print(f"  재시도 ({e.__class__.__name__})")
+            time.sleep(5)
+    return []
+
+
 def load_previous() -> dict:
     p = DOCS / "data.json"
     if p.exists():
@@ -322,7 +335,7 @@ def main() -> int:
             lst = {"url": url, "items": [], "updated_at": None, "error": None}
             if collector and url:
                 try:
-                    lst["items"] = collector(url, button=src.get("buttons", {}).get(cid, ""))
+                    lst["items"] = with_retry(collector, url, button=src.get("buttons", {}).get(cid, ""))
                     lst["updated_at"] = now
                     print(f"  OK   {src['name']} / {cat['name']}: {len(lst['items'])}권")
                 except Exception as e:  # 실패하면 지난 데이터 유지

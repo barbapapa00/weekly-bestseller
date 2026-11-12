@@ -380,8 +380,9 @@ def upload_to_supabase(data: dict) -> None:
     """환경변수 SUPABASE_URL, SUPABASE_SECRET_KEY 가 있을 때만 Supabase에 저장한다.
     (GitHub Actions에서는 Secrets로 넣어 주고, 내 PC에서는 보통 비워 둔다)"""
     import os
-    url = os.environ.get("SUPABASE_URL", "").rstrip("/")
-    key = os.environ.get("SUPABASE_SECRET_KEY", "")
+    # 복사·붙여넣기 과정에서 섞일 수 있는 보이지 않는 문자(BOM, 공백, 줄바꿈) 제거
+    url = os.environ.get("SUPABASE_URL", "").strip().lstrip("﻿").rstrip("/")
+    key = os.environ.get("SUPABASE_SECRET_KEY", "").strip().lstrip("﻿")
     if not (url and key):
         print("Supabase 설정이 없어 업로드는 건너뜀")
         return

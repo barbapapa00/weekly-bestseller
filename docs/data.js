@@ -1,5 +1,5 @@
 window.BESTSELLER_DATA = {
-  "updated_at": "2026-11-12T11:32:24+09:00",
+  "updated_at": "2026-11-12T11:33:50+09:00",
   "categories": [
     {
       "id": "self_help",
@@ -156,7 +156,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.yes24.com/product/goods/79297023"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         },
         "kids": {
@@ -293,7 +293,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.yes24.com/product/goods/145039550"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         },
         "economy": {
@@ -430,7 +430,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.yes24.com/product/goods/190813759"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         }
       }
@@ -576,7 +576,7 @@ window.BESTSELLER_DATA = {
               "link": "https://product.kyobobook.co.kr/detail/S000221737356"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         },
         "kids": {
@@ -713,7 +713,7 @@ window.BESTSELLER_DATA = {
               "link": "https://product.kyobobook.co.kr/detail/S000221804257"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         },
         "economy": {
@@ -850,7 +850,7 @@ window.BESTSELLER_DATA = {
               "link": "https://product.kyobobook.co.kr/detail/S000221569601"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         }
       }
@@ -1023,7 +1023,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.ypbooks.co.kr/books/202606246780810054"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         },
         "kids": {
@@ -1160,7 +1160,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.ypbooks.co.kr/books/202609146427743132"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         },
         "economy": {
@@ -1297,7 +1297,7 @@ window.BESTSELLER_DATA = {
               "link": "https://www.ypbooks.co.kr/books/202308231838272334"
             }
           ],
-          "updated_at": "2026-11-12T11:32:24+09:00",
+          "updated_at": "2026-11-12T11:33:50+09:00",
           "error": null
         }
       }
